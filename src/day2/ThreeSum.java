@@ -34,8 +34,6 @@ public class ThreeSum {
                 break;
             }
         }
-
-
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> row = null;
         if(isTrue && nums.length != 0){
@@ -61,7 +59,6 @@ public class ThreeSum {
                 }
 
             }
-
         }
         //去重
         boolean isFlag = true;
